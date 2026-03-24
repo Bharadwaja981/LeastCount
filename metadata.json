@@ -1,0 +1,5 @@
+{
+  "name": "Least Count Multiplayer",
+  "description": "A real-time multiplayer card game where players compete to have the lowest hand value. Features room creation, custom limits, and catch penalties.",
+  "requestFramePermissions": []
+}
