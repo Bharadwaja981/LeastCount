@@ -684,7 +684,8 @@ export default function App() {
   });
 
   useEffect(() => {
-    const newSocket = io({
+    const backendUrl = import.meta.env.VITE_BACKEND_URL || undefined;
+    const newSocket = io(backendUrl, {
       reconnection: true,
       reconnectionAttempts: Infinity,
       reconnectionDelay: 1000,
